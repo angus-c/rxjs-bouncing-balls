@@ -1,0 +1,11 @@
+#box {
+  border:1px solid;
+  width:400px;
+  height:400px;
+  float:left;
+}
+
+line {
+  stroke:#000;
+  stroke-width:2;
+}
