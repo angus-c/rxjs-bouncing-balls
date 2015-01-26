@@ -1,0 +1,8 @@
+{
+  "name": "rxjs-bouncing-balls",
+  "description": "bouncing balls with svg and RxJS",
+  "version": "0.0.1",
+  "dependencies": {
+    "rx":"~2.3"
+  }
+}
