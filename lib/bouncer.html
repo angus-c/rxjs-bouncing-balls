@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>bouncer</title>
+    <link rel="stylesheet" type="text/css" href="bouncer.css">
+    <script src="../node_modules/rx/dist/rx.all.js"></script>
+    <script src="rx.dom.lite.js"></script>
+  </head>
+
+  <body>
+    <svg id="box" class="box">
+      <line x1="0" y1="100" x2="100" y2="100"/>
+      <line x1="200" y1="0" x2="200" y2="100"/>
+      <line x1="300" y1="200" x2="400" y2="200"/>
+      <line x1="0" y1="300" x2="100" y2="300"/>
+      <line x1="200" y1="300" x2="200" y2="400"/>
+    </svg>
+
+    ball count <input id="count" type="number" min="1" max="500" step="1" value="40"><br>
+    slower<button id="slower"><</button><button id="faster">></button>faster<br>
+    ball size <input id="sizer" type="range" min="1" max="10" step="1" value="6"><br>
+    <button id="liner">add random line</button>
+
+    <script src="bouncer.js"></script>
+  </body>
+</html>
